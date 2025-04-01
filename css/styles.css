@@ -3,15 +3,59 @@ body {
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 h1 {
+  color: #000;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
   color: #333;
 }
+
+input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#countdown {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+  margin-top: 10px;
+}
+
+#result {
+  margin-top: 20px;
+}
+
 #result .green {
   color: #2ecc71;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 #result .red {
   color: #e74c3c;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#restart {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#restart:hover {
+  background-color: #0056b3;
 }
